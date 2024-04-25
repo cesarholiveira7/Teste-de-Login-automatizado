@@ -1,5 +1,6 @@
 # Teste-de-Login-automatizado
 Teste de 3 cenários distintos de Login automatizado.
+Foram utizados Intellij IDEA e Selenium Web Driver para realização do teste.
 
 Cenário 1: Login bem-sucedido:
 Dado que o usuário esteja na página "automation pratice";
