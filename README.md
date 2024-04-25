@@ -1,20 +1,22 @@
-# Teste-de-Login-automatizado
-Teste de 3 cenários distintos de Login automatizado.
-Foram utizados Intellij IDEA e Selenium Web Driver para realização do teste.
+# Teste de Login Automatizado
 
-. Cenário 1: Login bem-sucedido:
-Dado que o usuário esteja na página "automation pratice";
-Quando o usuário fizer o login corretamente;
-Então a página deve direcionar o usuário a pagina My account;
-E então o usuário faz logout.
+Este projeto consiste em testar 3 cenários distintos de login automatizado utilizando o Intellij IDEA e o Selenium WebDriver.
 
-. Cenário 2: Login com e-mail inválido:
-Dado que o usuário esteja na página "automation pratice";
-Quando o usuário fizer o login com um e-mail incorreto;
-Então a página deve retornar a mensagem de erro ao usuário.
+## Cenários de Teste:
 
-. Cenário 3: Login com senha inválida:
-Dado que o usuário esteja na página "automation pratice";
-Quando o usuário fizer o login com um e-mail incorreto;
-Então a página deve retornar a mensagem de erro ao usuário;
-Fechar o navegador após a execução.
+### Cenário 1: Login bem-sucedido
+1. Dado que o usuário esteja na página "automation pratice";
+2. Quando o usuário fizer o login corretamente;
+3. Então a página deve direcionar o usuário para a página "My Account";
+4. E então o usuário faz logout.
+
+### Cenário 2: Login com e-mail inválido
+1. Dado que o usuário esteja na página "automation pratice";
+2. Quando o usuário fizer o login com um e-mail incorreto;
+3. Então a página deve retornar uma mensagem de erro ao usuário.
+
+### Cenário 3: Login com senha inválida
+1. Dado que o usuário esteja na página "automation pratice";
+2. Quando o usuário fizer o login com uma senha incorreta;
+3. Então a página deve retornar uma mensagem de erro ao usuário;
+4. Fechar o navegador após a execução.
