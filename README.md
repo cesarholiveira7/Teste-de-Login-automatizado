@@ -1,6 +1,7 @@
 # Teste de Login Automatizado
 
-Este projeto consiste em testar 3 cenários distintos de login automatizado na página (http://www.automationpractice.pl/index.php?controller=authentication&back=my-account) utilizando a linguagem Javascriprit e com o uso de Intellij IDEA e Selenium WebDriver.
+Este projeto consiste em testar 3 cenários distintos de login automatizado na página (http://www.automationpractice.pl/index.php?controller=authentication&back=my-account).
+Utilizando a linguagem Javascriprit e com o uso de Intellij IDEA e Selenium WebDriver.
 
 ## Cenários de Teste:
 
